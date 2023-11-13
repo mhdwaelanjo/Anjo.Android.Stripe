@@ -10,15 +10,20 @@ namespace Com.Stripe.Android.Payments.Paymentlauncher
     {
         public sealed partial class Companion : global::Java.Lang.Object
         {
-            private static Companion Instance;
+            private static Companion Instance = null;
 
-            public Companion() : base()
+            internal Companion() 
             {
                 Instance = this;
             }
 
             public static Companion GetInstance()
             {
+                if (Instance == null)
+                {
+                    Instance = new Companion();
+                }
+
                 return Instance;
             }
 

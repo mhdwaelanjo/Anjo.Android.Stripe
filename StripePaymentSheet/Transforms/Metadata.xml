@@ -86,6 +86,9 @@
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.IntentConfiguration.Mode.Setup.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.IntentConfiguration.Mode.Setup.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
   
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.BillingDetailsCollectionConfiguration.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.BillingDetailsCollectionConfiguration.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='ActivityPaymentOptionsBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='ActivityPaymentSheetBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='FragmentAchBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
@@ -133,12 +136,23 @@
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.flowcontroller']/class[@name='FlowControllerModule_ProvideViewModelFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.flowcontroller']/class[@name='FlowControllerModule_ProvideViewModelScopeFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.paymentdatacollection.ach.di']/class[@name='USBankAccountFormViewModelModule_ProvidesResourcesFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='StripeCustomerAdapterModule_Companion_ProvidePrefsRepositoryFactoryFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='StripeCustomerAdapterModule_Companion_ProvidePublishableKeyFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='StripeCustomerAdapterModule_Companion_ProvidesEnableLoggingFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='StripeCustomerAdapterModule_Companion_ProvidesProductUsageFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='StripeCustomerAdapterModule_Companion_ProvideTimeProviderFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='StripeCustomerAdapterModule_Companion_ProvidePaymentConfigurationFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheetContract']/method[@name='parseResult' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='android.content.Intent']]">Java.Lang.Object</attr>
 
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='FragmentPaymentOptionsPrimaryButtonBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='FragmentPaymentSheetPrimaryButtonBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='FragmentPrimaryButtonContainerBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='StripeActivityPaymentOptionsBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='StripeActivityPaymentSheetBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='StripeFragmentPaymentOptionsPrimaryButtonBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='StripeFragmentPaymentSheetPrimaryButtonBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='StripeFragmentPrimaryButtonContainerBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
 
 	<!--<attr name="visibility" path="/com.stripe.android.paymentsheet.paymentdatacollection.polling.di']/class[@name='PollingViewModelModule.Companion']">public</attr>-->
 

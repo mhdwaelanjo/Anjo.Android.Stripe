@@ -8,6 +8,7 @@
   -->
 
 	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.databinding']/class[@name='ActivityCardScanBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.databinding']/class[@name='StripeActivityCardScanBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
 
 	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.address']/class[@name='AddressRepository_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.forms.resources']/class[@name='AsyncAddressResourceRepository_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
@@ -15,6 +16,12 @@
  
 	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core']/class[@name='BillingDetailsCollectionConfiguration.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core']/class[@name='BillingDetailsCollectionConfiguration.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core']/class[@name='CardBillingDetailsCollectionConfiguration.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core']/class[@name='CardBillingDetailsCollectionConfiguration.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+ 
+	<!--<attr name="return" path="">Java.Lang.Object</attr>
+	<attr name="return" path="">Java.Lang.Object[]</attr>-->
  
 	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='AuBecsDebitMandateTextElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IController</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='CardDetailsSectionElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IController</attr>

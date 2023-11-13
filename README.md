@@ -1,7 +1,7 @@
 # Anjo.Android.Stripe
 
 ---------------------------------
-Stripe Android SDK for Xamarin Android Binding Library - Wael Anjo
+Stripe Android SDK for .NET for Android (formerly Xamarin.Android) Binding Library - Wael Anjo
 ---------------------------------
 
 Welcome to the Stripe Payments developer documentation. You will find help about Stripe Payments products and APIs that will help you start using our products quickly.
