@@ -1,0 +1,41 @@
+﻿<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+	<remove-node path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='TextFieldStateConstants']" />
+	<remove-node path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='RowElement']/method[@name='sectionFieldErrorController' and count(parameter)=0]" />
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='IdentifierSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='IdentifierSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='OTPElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='SectionElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='SimpleTextElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IInputController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='AddressTextFieldElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IInputController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='AdministrativeAreaElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IInputController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='PhoneNumberElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IInputController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='CountryElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IInputController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='SameAsShippingElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IInputController</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='EmailConfig']/method[@name='getTrailingIcon' and count(parameter)=0]">Xamarin.KotlinX.Coroutines.Flow.IStateFlow</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='PostalCodeConfig']/method[@name='getLoading' and count(parameter)=0]">Xamarin.KotlinX.Coroutines.Flow.IStateFlow</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='PostalCodeConfig']/method[@name='getTrailingIcon' and count(parameter)=0]">Xamarin.KotlinX.Coroutines.Flow.IStateFlow</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='SimpleTextFieldConfig']/method[@name='getLoading' and count(parameter)=0]">Xamarin.KotlinX.Coroutines.Flow.IStateFlow</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='SimpleTextFieldConfig']/method[@name='getTrailingIcon' and count(parameter)=0]">Xamarin.KotlinX.Coroutines.Flow.IStateFlow</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='NameConfig']/method[@name='getTrailingIcon' and count(parameter)=0]">Xamarin.KotlinX.Coroutines.Flow.IStateFlow</attr>
+	
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='AddressTextFieldController']/method[@name='getLabel' and count(parameter)=0]">Xamarin.KotlinX.Coroutines.Flow.IFlow</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='SimpleTextFieldController']/method[@name='getLabel' and count(parameter)=0]">Xamarin.KotlinX.Coroutines.Flow.IFlow</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='SimpleTextFieldController']/method[@name='getPlaceHolder' and count(parameter)=0]">Xamarin.KotlinX.Coroutines.Flow.IFlow</attr>
+
+	<add-node path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='RowElement']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="sectionFieldErrorController" native="false" return="Com.Stripe.Android.Uicore.Elements.ISectionFieldErrorController" static="false" synchronized="false" visibility="public">
+		</method>
+	</add-node>
+
+</metadata>

@@ -1,0 +1,168 @@
+﻿<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  --> 
+	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.paymentdatacollection.polling.di']/class[@name='PollingViewModelModule_Companion_ProvidePaymentConfigurationFactory']" />
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.addresselement']/class[@name='AddressDetails.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.addresselement']/class[@name='AddressDetails.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.addresselement']/class[@name='AddressLauncher.AdditionalFieldsConfiguration.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.addresselement']/class[@name='AddressLauncher.AdditionalFieldsConfiguration.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.addresselement']/class[@name='AddressLauncher.AdditionalFieldsConfiguration.FieldConfiguration.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.addresselement']/class[@name='AddressLauncher.AdditionalFieldsConfiguration.FieldConfiguration.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.addresselement']/class[@name='AddressLauncher.Configuration.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.addresselement']/class[@name='AddressLauncher.Configuration.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.addresselement']/class[@name='AddressLauncherResult.Canceled.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.addresselement']/class[@name='AddressLauncherResult.Canceled.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.addresselement']/class[@name='AddressLauncherResult.Succeeded.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.addresselement']/class[@name='AddressLauncherResult.Succeeded.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.Address.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.Address.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.Appearance.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.Appearance.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.BillingDetails.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.BillingDetails.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.Colors.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.Colors.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.Configuration.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.Configuration.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.CustomerConfiguration.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.CustomerConfiguration.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.GooglePayConfiguration.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.GooglePayConfiguration.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.PrimaryButton.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.PrimaryButton.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.PrimaryButtonColors.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.PrimaryButtonColors.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.PrimaryButtonShape.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.PrimaryButtonShape.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.PrimaryButtonTypography.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.PrimaryButtonTypography.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.Shapes.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.Shapes.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.Typography.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.Typography.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheetResult.Canceled.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheetResult.Canceled.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheetResult.Completed.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheetResult.Completed.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheetResult.Failed.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheetResult.Failed.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheetContract.Args.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheetContract.Args.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+ 
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.IntentConfiguration.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.IntentConfiguration.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+ 
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.IntentConfiguration.Mode.Payment.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.IntentConfiguration.Mode.Payment.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+ 
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.IntentConfiguration.Mode.Setup.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.IntentConfiguration.Mode.Setup.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='ActivityPaymentOptionsBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='ActivityPaymentSheetBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='FragmentAchBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='FragmentPaymentsheetLoadingBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='FragmentPaymentsheetPaymentMethodsListBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='StripeCountryDropdownItemBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.addresselement']/class[@name='AddressElementViewModel_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.addresselement']/class[@name='AutocompleteViewModel_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.addresselement']/class[@name='InputAddressViewModel_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.forms']/class[@name='FormViewModel_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='AddressElementViewModelModule_ProvideDummyInjectorKeyFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='AddressElementViewModelModule_ProvidesPublishableKeyFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='FlowControllerModule_ProvideProductUsageTokensFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='FlowControllerModule_ProvideViewModelFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentOptionsViewModelModule_ProvideDummyInjectorKeyFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentOptionsViewModelModule_ProvideDummyInjectorKeyFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentSheetCommonModule_Companion_ProvideAppNameFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentSheetCommonModule_Companion_ProvideEnabledLoggingFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentSheetCommonModule_Companion_ProvidePrefsRepositoryFactoryFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentSheetCommonModule_Companion_ProvidePublishableKeyFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentSheetCommonModule_Companion_ProvideStripeAccountIdFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentSheetLauncherModule_Companion_ProvideProductUsageTokensFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.paymentdatacollection.ach.di']/class[@name='USBankAccountFormViewModelModule_ProvidesProductUsageFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.paymentdatacollection.ach']/class[@name='USBankAccountFormViewModel_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.paymentdatacollection.polling.di']/class[@name='PollingViewModelModule_Companion_ProvidesAppContextFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.paymentdatacollection.polling.di']/class[@name='PollingViewModelModule_Companion_ProvidesEnableLoggingFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.paymentdatacollection.polling.di']/class[@name='PollingViewModelModule_Companion_ProvidesProductUsageFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.paymentdatacollection.polling']/class[@name='PollingViewModel_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentOptionsViewModel_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheetViewModel_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.paymentdatacollection.polling.di']/class[@name='PollingViewModelModule_Companion_ProvidePublishableKeyFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.paymentdatacollection.ach.di']/class[@name='USBankAccountFormViewModelModule_ProvidePublishableKeyFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.paymentdatacollection.ach.di']/class[@name='USBankAccountFormViewModelModule_ProvidesEnableLoggingFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.paymentdatacollection.ach.di']/class[@name='USBankAccountFormViewModelModule_ProvidesAppContextFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='AddressElementViewModelModule_ProvideEventReporterFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='FlowControllerModule_ProvideViewModelScopeFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentSheetCommonModule_Companion_ProvidePaymentConfigurationFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentSheetViewModelModule_ProvideArgsFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.paymentdatacollection.ach.di']/class[@name='USBankAccountFormViewModelModule_ProvidePaymentConfigurationFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.paymentdatacollection.polling.di']/class[@name='PollingViewModelModule_Companion_ProvidePaymentConfigurationFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='FlowControllerModule_ProvideStripeImageLoaderFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.flowcontroller']/class[@name='FlowControllerModule_ProvideProductUsageTokensFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.flowcontroller']/class[@name='FlowControllerModule_ProvideStripeImageLoaderFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.flowcontroller']/class[@name='FlowControllerModule_ProvideViewModelFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.flowcontroller']/class[@name='FlowControllerModule_ProvideViewModelScopeFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.paymentdatacollection.ach.di']/class[@name='USBankAccountFormViewModelModule_ProvidesResourcesFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheetContract']/method[@name='parseResult' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='android.content.Intent']]">Java.Lang.Object</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='FragmentPaymentOptionsPrimaryButtonBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='FragmentPaymentSheetPrimaryButtonBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='FragmentPrimaryButtonContainerBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+
+	<!--<attr name="visibility" path="/com.stripe.android.paymentsheet.paymentdatacollection.polling.di']/class[@name='PollingViewModelModule.Companion']">public</attr>-->
+
+	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='AddressElementViewModelModule_ProvideEventReporterFactory']/method[@name='provideEventReporter' and count(parameter)=2 and parameter[1][@type='java.lang.Object'] and parameter[2][@type='java.lang.Object']]" />
+	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='AddressElementViewModelModule_ProvideEventReporterModeFactory']" />
+	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentSheetViewModelModule_ProvidePrefsRepositoryFactory']" />
+	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='FlowControllerModule_ProvideEventReporterModeFactory']" />
+	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentOptionsViewModelModule_ProvideEventReporterModeFactory']" />
+	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentSheetLauncherModule_Companion_ProvideEventReporterModeFactory']" />
+	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.repositories']/class[@name='StripeIntentRepository_Api_Factory']" />
+	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.flowcontroller']/class[@name='FlowControllerModule_ProvideEventReporterModeFactory']" />
+	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.repositories']/class[@name='ElementsSessionRepository_Api_Factory']" />
+
+	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='ActivityPaymentOptionsBinding']" />
+	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='FragmentAchBinding']" />
+	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='ActivityPaymentSheetBinding']" />
+	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.paymentdatacollection.ach.di']/class[@name='USBankAccountFormViewModelModule_ProvidePaymentConfigurationFactory']" />
+
+	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheetContract']/method[@name='createIntent' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='com.stripe.android.paymentsheet.PaymentSheetContract.Args']]" />
+	<add-node path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheetContract']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="CreateIntent" native="false" return="Android.Content.Intent" static="false" synchronized="false" visibility="public">
+			<parameter name="context" type="Android.Content.Context" />
+			<parameter name="input" type="Java.Lang.Object" />
+		</method>
+	</add-node>
+
+</metadata>

@@ -1,0 +1,130 @@
+﻿<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.databinding']/class[@name='StripeChallengeActivityBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.databinding']/class[@name='StripeChallengeZoneMultiSelectViewBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.databinding']/class[@name='StripeChallengeSubmitDialogBinding']/method[@name='getRoot' and count(parameter)=0]" >Android.Views.View</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.databinding']/class[@name='StripeChallengeZoneSingleSelectViewBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.databinding']/class[@name='StripeChallengeZoneTextViewBinding']/method[@name='getRoot' and count(parameter)=0]" >Android.Views.View</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.databinding']/class[@name='StripeInformationZoneViewBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.databinding']/class[@name='StripeChallengeFragmentBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.databinding']/class[@name='StripeProgressViewLayoutBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.init']/class[@name='Warning.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.init']/class[@name='Warning.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='AuthenticationRequestParameters.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='AuthenticationRequestParameters.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeParameters.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeParameters.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeRequestResult.ProtocolError.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeRequestResult.ProtocolError.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeRequestResult.RuntimeError.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeRequestResult.RuntimeError.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeRequestResult.Success.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeRequestResult.Success.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeRequestResult.Timeout.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeRequestResult.Timeout.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeRequestExecutor.Config.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeRequestExecutor.Config.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeResult.Canceled.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeResult.Canceled.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeResult.Failed.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeResult.Failed.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeResult.ProtocolError.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeResult.ProtocolError.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeResult.RuntimeError.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeResult.RuntimeError.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeResult.Succeeded.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeResult.Succeeded.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeResult.Timeout.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeResult.Timeout.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeRequestExecutor.Config.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeRequestExecutor.Config.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeRequestExecutor.Config.Keys.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeRequestExecutor.Config.Keys.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ErrorMessage.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ErrorMessage.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='InitChallengeArgs.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='InitChallengeArgs.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='InitChallengeResult.End.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='InitChallengeResult.End.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='InitChallengeResult.Start.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='InitChallengeResult.Start.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='IntentData.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='IntentData.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ProtocolErrorEvent.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ProtocolErrorEvent.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='RuntimeErrorEvent.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='RuntimeErrorEvent.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='SdkTransactionId.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='SdkTransactionId.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transactions']/class[@name='ChallengeRequestData.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transactions']/class[@name='ChallengeRequestData.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transactions']/class[@name='ChallengeResponseData.ChallengeSelectOption.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transactions']/class[@name='ChallengeResponseData.ChallengeSelectOption.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transactions']/class[@name='ChallengeResponseData.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transactions']/class[@name='ChallengeResponseData.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transactions']/class[@name='ChallengeResponseData.Image.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transactions']/class[@name='ChallengeResponseData.Image.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transactions']/class[@name='ErrorData.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transactions']/class[@name='ErrorData.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transactions']/class[@name='MessageExtension.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.transactions']/class[@name='MessageExtension.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.views']/class[@name='ChallengeViewArgs.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.stripe3ds2.views']/class[@name='ChallengeViewArgs.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<remove-node path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeContract']/method[@name='createIntent' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='com.stripe.android.stripe3ds2.views.ChallengeViewArgs']]" />
+	<add-node path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeContract']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="createIntent" native="false" return="android.content.Intent" static="false" synchronized="false" visibility="public">
+			<parameter name="context" type="android.content.Context" />
+			<parameter name="input" type="Java.Lang.Object" />
+		</method>
+	</add-node>
+
+	<remove-node path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeContract']/method[@name='parseResult' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='android.content.Intent']]" />
+	<add-node path="/api/package[@name='com.stripe.android.stripe3ds2.transaction']/class[@name='ChallengeContract']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="parseResult" native="false" return="Java.Lang.Object" static="false" synchronized="false" visibility="public">
+			<parameter name="resultCode" type="int" />
+			<parameter name="intent" type="android.content.Intent" />
+		</method>
+	</add-node>
+
+	<remove-node path="/api/package[@name='com.stripe.android.stripe3ds2.databinding']/class[@name='StripeChallengeZoneTextViewBinding']" />
+
+</metadata>
