@@ -15,6 +15,7 @@
 
 	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='OTPElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IController</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='SectionElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='CheckboxFieldElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IController</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='SimpleTextElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IInputController</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='AddressTextFieldElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IInputController</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='AdministrativeAreaElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IInputController</attr>
