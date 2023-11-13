@@ -6,6 +6,11 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+
+	<!--<remove-node path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetNativeModule_Companion']" />-->
+	<remove-node path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetNativeModule_Companion_ProvidesFinancialConnectionsManifestRepositoryFactory']" />
+	<remove-node path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetNativeModule_Companion_ProvidesFinancialConnectionsConsumerSessionRepositoryFactory']" />
+	<remove-node path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetNativeModule_Companion_ProvidesFinancialConnectionsAccountsRepositoryFactory']" />
 	<remove-node path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetNativeModule_ProvidesFinancialConnectionsAccountsRepositoryFactory']" />
 	<remove-node path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetNativeModule_ProvidesFinancialConnectionsInstitutionsRepositoryFactory']" />
 
@@ -19,16 +24,20 @@
 	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetSharedModule_ProvideConnectionsRepositoryFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetConfigurationModule_ProvidesApiVersionFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetNativeModule_ProvideConsumersApiServiceFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetNativeModule_Companion_ProvideConsumersApiServiceFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetNativeModule_Companion_ProvidesFinancialConnectionsInstitutionsRepositoryFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetNativeModule_Companion_ProvidesImageLoaderFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 
 	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetSharedModule_ProvideConnectionsRepositoryFactory']/method[@name='provideConnectionsRepository' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetConfigurationModule_ProvidesPublishableKeyFactory']/method[@name='providesPublishableKey' and count(parameter)=1 and parameter[1][@type='com.stripe.android.financialconnections.FinancialConnectionsSheet.Configuration']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetConfigurationModule_ProvidesStripeAccountIdFactory']/method[@name='providesStripeAccountId' and count(parameter)=1 and parameter[1][@type='com.stripe.android.financialconnections.FinancialConnectionsSheet.Configuration']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetConfigurationModule_ProvidesStripeAccountIdFactory']/method[@name='providesStripeAccountId' and count(parameter)=1 and parameter[1][@type='com.stripe.android.financialconnections.FinancialConnectionsSheet.Configuration']]">Java.Lang.Object</attr>
- 
+
 	<remove-node path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetModule_ProvidesFinancialConnectionsManifestRepositoryFactory']" />
 	<remove-node path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetSharedModule_ProvideEventReporterFactory']" />
 	<remove-node path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetNativeModule_ProvidesFinancialConnectionsManifestRepositoryFactory']" />
 	<remove-node path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetNativeModule_ProvidesFinancialConnectionsConsumerSessionRepositoryFactory']" />
+	<remove-node path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetNativeModule_Companion_ProvidesFinancialConnectionsInstitutionsRepositoryFactory']/method[@name='providesFinancialConnectionsInstitutionsRepository' and count(parameter)=3 and parameter[1][@type='java.lang.Object'] and parameter[2][@type='com.stripe.android.core.networking.ApiRequest.Factory'] and parameter[3][@type='com.stripe.android.core.networking.ApiRequest.Options']]" />
 
 	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections']/class[@name='FinancialConnectionsSheet.Configuration.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections']/class[@name='FinancialConnectionsSheet.Configuration.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
@@ -121,7 +130,7 @@
 	<!--<remove-node path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetNativeModule_ProvidesFinancialConnectionsInstitutionsRepositoryFactory']/method[@name='providesFinancialConnectionsInstitutionsRepository' and count(parameter)=4 and parameter[1][@type='java.lang.Object'] and parameter[2][@type='java.lang.Object'] and parameter[3][@type='com.stripe.android.core.networking.ApiRequest.Factory'] and parameter[4][@type='com.stripe.android.core.networking.ApiRequest.Options']]" />-->
 	<remove-node path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetSharedModule_ProvidesAnalyticsTrackerFactory']/method[@name='providesAnalyticsTracker' and count(parameter)=6 and parameter[1][@type='android.app.Application'] and parameter[2][@type='com.stripe.android.core.Logger'] and parameter[3][@type='java.lang.Object'] and parameter[4][@type='java.util.Locale'] and parameter[5][@type='com.stripe.android.financialconnections.FinancialConnectionsSheet.Configuration'] and parameter[6][@type='com.stripe.android.core.networking.StripeNetworkClient']]" />
 	<remove-node path="/api/package[@name='com.stripe.android.financialconnections.ui']/class[@name='FinancialConnectionsSheetNativeActivity_MembersInjector']" />
-	 
+
 	<remove-node path="/api/package[@name='com.stripe.android.financialconnections.launcher']/class[@name='FinancialConnectionsSheetForLinkContract']/method[@name='createIntent' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='com.stripe.android.financialconnections.launcher.FinancialConnectionsSheetActivityArgs.ForLink']]" />
 	<add-node path="/api/package[@name='com.stripe.android.financialconnections.launcher']/class[@name='FinancialConnectionsSheetForLinkContract']">
 		<method abstract="false" deprecated="not deprecated" final="false" name="createIntent" native="false" return="android.content.Intent" static="false" synchronized="false" visibility="public">

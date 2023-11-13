@@ -33,11 +33,35 @@
 
 	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='ConsumerSessionLookup.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='ConsumerSessionLookup.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+ 
+	<attr name="return" path="/api/package[@name='com.stripe.android.googlepaylauncher']/class[@name='GooglePayPaymentMethodLauncherContractV2.Args.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.googlepaylauncher']/class[@name='GooglePayPaymentMethodLauncherContractV2.Args.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='BankStatuses.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='BankStatuses.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='Stripe3ds2AuthParams.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='Stripe3ds2AuthParams.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='Stripe3ds2AuthResult.Ares.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='Stripe3ds2AuthResult.Ares.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='Stripe3ds2AuthResult.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='Stripe3ds2AuthResult.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='Stripe3ds2AuthResult.ThreeDS2Error.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='Stripe3ds2AuthResult.ThreeDS2Error.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<!--<attr name="return" path="">Java.Lang.Object</attr>
+	<attr name="return" path="">Java.Lang.Object[]</attr>-->
+
 
 	<attr name="return" path="/api/package[@name='com.stripe.android.model.parsers']/class[@name='BankAccountJsonParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='org.json.JSONObject']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.model.parsers']/class[@name='CardJsonParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='org.json.JSONObject']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.model.parsers']/class[@name='TokenJsonParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='org.json.JSONObject']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.model.parsers']/class[@name='ConsumerSessionJsonParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='org.json.JSONObject']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.model.parsers']/class[@name='ConsumerSessionLookupJsonParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='org.json.JSONObject']]">Java.Lang.Object</attr>
+ 
+	<!--<attr name="return" path="">Java.Lang.Object</attr>-->
 
 </metadata>
