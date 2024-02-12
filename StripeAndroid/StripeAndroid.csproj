@@ -7,17 +7,17 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.Stripe</PackageId>
-		<PackageVersion>20.36.1</PackageVersion>
-		<AssemblyVersion>20.36.1</AssemblyVersion>
-		<FileVersion>20.36.1</FileVersion>
-		<Version>20.36.1</Version>
+		<PackageVersion>20.37.2</PackageVersion>
+		<AssemblyVersion>20.37.2</AssemblyVersion>
+		<FileVersion>20.37.2</FileVersion>
+		<Version>20.37.2</Version>
 		<Title>Anjo Android Stripe SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
 		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.Stripe</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Stripe SDK</Description>
-		<PackageReleaseNotes>Stripe SDK v20.36.1</PackageReleaseNotes>
+		<PackageReleaseNotes>Stripe SDK v20.37.2</PackageReleaseNotes>
 		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
 		<PackageTags>Xamarin.Android, MonoDroid, Stripe, credit cards, Payment Gateway, money</PackageTags>
 		<Summary>With Stripe Payments, collect payments, make payouts, manage international payments and more.</Summary>
@@ -29,7 +29,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Remove="Jars\stripe-android-20.36.1.aar" />
+	  <None Remove="Jars\stripe-android-20.37.2.aar" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">

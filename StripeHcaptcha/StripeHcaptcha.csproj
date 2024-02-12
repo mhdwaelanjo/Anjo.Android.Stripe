@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFrameworks>net8.0-android;net7.0-android;</TargetFrameworks>
 		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
@@ -6,18 +6,18 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 	<PropertyGroup>
-		<PackageId>Anjo.Android.Stripe.PaymentModel</PackageId>
+		<PackageId>Anjo.Android.Stripe.Hcaptcha</PackageId>
 		<PackageVersion>20.37.2</PackageVersion>
 		<AssemblyVersion>20.37.2</AssemblyVersion>
 		<FileVersion>20.37.2</FileVersion>
 		<Version>20.37.2</Version>
-		<Title>Anjo Android Stripe PaymentModel SDK</Title>
+		<Title>Anjo Android Stripe Hcaptcha SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
 		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.Stripe</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Stripe PaymentModel SDK</Description>
-		<PackageReleaseNotes>Stripe.PaymentModel SDK v20.37.2</PackageReleaseNotes>
+		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Stripe Hcaptcha SDK</Description>
+		<PackageReleaseNotes>Stripe.Hcaptcha SDK v20.37.2</PackageReleaseNotes>
 		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
 		<PackageTags>Xamarin.Android, MonoDroid, Stripe, credit cards, Payment Gateway, money</PackageTags>
 		<Summary>With Stripe Payments, collect payments, make payouts, manage international payments and more.</Summary>
@@ -29,7 +29,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Remove="Jars\payments-model-20.37.2.aar" />
+		<None Remove="Jars\hcaptcha-20.37.2.aar" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">
@@ -47,10 +47,7 @@
 	</ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.6.1.5" />
-		<PackageReference Include="Xamarin.AndroidX.Core" Version="1.12.0.2" />
 		<PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="1.9.20" />
-	</ItemGroup>
-	<ItemGroup>
-		<ProjectReference Include="..\StripeCore\StripeCore.csproj" />
-	</ItemGroup>
+		<PackageReference Include="Xamarin.Android.JetBrains.KotlinX_Serialization_Json_Jvm" Version="1.3.1" />
+	</ItemGroup> 
 </Project>

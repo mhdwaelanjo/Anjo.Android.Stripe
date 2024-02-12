@@ -14,6 +14,8 @@
 	<attr name="return" path="/api/package[@name='com.stripe.android.core.networking']/class[@name='ApiRequest_Options_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.core.networking']/class[@name='DefaultAnalyticsRequestExecutor_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.core.networking']/class[@name='RetryDelaySupplier_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.core.networking']/class[@name='ExponentialBackoffRetryDelaySupplier_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.core.networking']/class[@name='LinearRetryDelaySupplier_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 
 	<attr name="return" path="/api/package[@name='com.stripe.android.core']/class[@name='AppInfo.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.core']/class[@name='AppInfo.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>

@@ -89,6 +89,9 @@
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.BillingDetailsCollectionConfiguration.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.BillingDetailsCollectionConfiguration.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
   
+	<attr name="return" path="/api/package[@name='com.stripe.android.lpmfoundations.paymentmethod']/class[@name='PaymentMethodMetadata.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.lpmfoundations.paymentmethod']/class[@name='PaymentMethodMetadata.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='ActivityPaymentOptionsBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='ActivityPaymentSheetBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='FragmentAchBinding']/method[@name='getRoot' and count(parameter)=0]">Android.Views.View</attr>
@@ -196,6 +199,7 @@
 	<attr name="return" path="/api/package[@name='com.stripe.android.customersheet.injection']/class[@name='CustomerSheetViewModelModule_Companion_ProvidesIsFinancialConnectionsAvailableFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.customersheet.injection']/class[@name='CustomerSheetViewModelModule_Companion_ProvideLpmRepositoryFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.customersheet.injection']/class[@name='CustomerSheetViewModelModule_Companion_ProvidesEditPaymentMethodViewInteractorFactoryFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.lpmfoundations.luxe']/class[@name='LpmRepository_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheetContract']/method[@name='parseResult' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='android.content.Intent']]">Java.Lang.Object</attr>
 
