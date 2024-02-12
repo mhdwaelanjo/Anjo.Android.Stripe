@@ -1,24 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFrameworks>net7.0-android;net6.0-android;</TargetFrameworks>
+		<TargetFrameworks>net8.0-android;net7.0-android;</TargetFrameworks>
 		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.Stripe.UiCore</PackageId>
-		<PackageVersion>20.34.4</PackageVersion>
-		<AssemblyVersion>20.34.4</AssemblyVersion>
-		<FileVersion>20.34.4</FileVersion>
-		<Version>20.34.4</Version>
+		<PackageVersion>20.36.1</PackageVersion>
+		<AssemblyVersion>20.36.1</AssemblyVersion>
+		<FileVersion>20.36.1</FileVersion>
+		<Version>20.36.1</Version>
 		<Title>Anjo Android Stripe UiCore SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
 		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.Stripe</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Stripe UiCore SDK</Description>
-		<PackageReleaseNotes>Stripe.UiCore SDK v20.34.4</PackageReleaseNotes>
-		<Copyright>Copyright (c) 2023 Wael Anjo</Copyright>
+		<PackageReleaseNotes>Stripe.UiCore SDK v20.36.1</PackageReleaseNotes>
+		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
 		<PackageTags>Xamarin.Android, MonoDroid, Stripe, credit cards, Payment Gateway, money</PackageTags>
 		<Summary>With Stripe Payments, collect payments, make payouts, manage international payments and more.</Summary>
 		<!-- Include symbol files (*.pdb) in the built .nupkg -->
@@ -29,7 +29,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Remove="Jars\stripe-ui-core-20.34.4.aar" />
+	  <None Remove="Jars\stripe-ui-core-20.36.1.aar" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">

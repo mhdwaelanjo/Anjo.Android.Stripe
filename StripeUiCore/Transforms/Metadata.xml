@@ -13,6 +13,12 @@
 	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='IdentifierSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='IdentifierSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
 
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='ParameterDestination.Api.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='ParameterDestination.Api.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='ParameterDestination.Local.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='ParameterDestination.Local.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+ 
 	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='OTPElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IController</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='SectionElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IController</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='CheckboxFieldElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IController</attr>

@@ -1,16 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFrameworks>net7.0-android;net6.0-android;</TargetFrameworks>
+		<TargetFrameworks>net8.0-android;net7.0-android;</TargetFrameworks>
 		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.Stripe.3DSecue</PackageId>
-		<PackageVersion>6.1.7.3</PackageVersion>
-		<AssemblyVersion>6.1.7.3</AssemblyVersion>
-		<FileVersion>6.1.7.3</FileVersion>
-		<Version>6.1.7.3</Version>
+		<PackageVersion>6.1.7.4</PackageVersion>
+		<AssemblyVersion>6.1.7.4</AssemblyVersion>
+		<FileVersion>6.1.7.4</FileVersion>
+		<Version>6.1.7.4</Version>
 		<Title>Anjo Android Stripe 3DS2 SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
@@ -18,7 +18,7 @@
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Stripe 3DS2 SDK</Description>
 		<PackageReleaseNotes>Stripe.3DS2 SDK v6.1.7</PackageReleaseNotes>
-		<Copyright>Copyright (c) 2023 Wael Anjo</Copyright>
+		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
 		<PackageTags>Xamarin.Android, MonoDroid, Stripe, credit cards, Payment Gateway, money</PackageTags>
 		<Summary>With Stripe Payments, collect payments, make payouts, manage international payments and more.</Summary>
 		<!-- Include symbol files (*.pdb) in the built .nupkg -->
