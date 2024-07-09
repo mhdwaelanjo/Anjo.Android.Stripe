@@ -13,6 +13,7 @@
 	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.address']/class[@name='AddressRepository_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.forms.resources']/class[@name='AsyncAddressResourceRepository_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core']/class[@name='FormController_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='ExternalPaymentMethodsRepository_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
  
 	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core']/class[@name='BillingDetailsCollectionConfiguration.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core']/class[@name='BillingDetailsCollectionConfiguration.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
@@ -28,6 +29,91 @@
  
 	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.cbc']/class[@name='CardBrandChoiceEligibility.Ineligible.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.cbc']/class[@name='CardBrandChoiceEligibility.Ineligible.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='AddressSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='AddressSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='AfterpayClearpayTextSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='AfterpayClearpayTextSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='AuBecsDebitMandateTextSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='AuBecsDebitMandateTextSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='BacsDebitBankAccountSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='BacsDebitBankAccountSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='BsbSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='BsbSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='CountrySpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='CountrySpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='DropdownItemSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='DropdownItemSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='EmailSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='EmailSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='ExternalPaymentMethodSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='ExternalPaymentMethodSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='IbanSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='IbanSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='KlarnaHeaderStaticTextSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='KlarnaHeaderStaticTextSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='MandateTextSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='MandateTextSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='OTPSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='OTPSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='PlaceholderSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='PlaceholderSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SharedDataSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SharedDataSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='StaticTextSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='StaticTextSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='AffirmTextSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='AffirmTextSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='AuBankAccountNumberSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='AuBankAccountNumberSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='CashAppPayMandateTextSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='CashAppPayMandateTextSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='BacsDebitConfirmSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='BacsDebitConfirmSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='DropdownSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='DropdownSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='KlarnaMandateTextSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='KlarnaMandateTextSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='PhoneSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='PhoneSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SepaMandateTextSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SepaMandateTextSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='NameSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='NameSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SelectorIcon.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SelectorIcon.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='EmptyFormSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='EmptyFormSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SimpleTextSpec.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SimpleTextSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
   
 	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='AuBecsDebitMandateTextElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IController</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='CardDetailsSectionElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IController</attr>

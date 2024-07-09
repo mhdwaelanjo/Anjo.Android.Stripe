@@ -19,6 +19,15 @@
 	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='ParameterDestination.Local.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='ParameterDestination.Local.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
  
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='AddressType.Normal.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='AddressType.Normal.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+ 
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='AddressType.ShippingCondensed.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='AddressType.ShippingCondensed.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+ 
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='AddressType.ShippingExpanded.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='AddressType.ShippingExpanded.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+ 
 	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='OTPElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IController</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='SectionElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IController</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='CheckboxFieldElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IController</attr>
@@ -36,9 +45,9 @@
 	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='SimpleTextFieldConfig']/method[@name='getTrailingIcon' and count(parameter)=0]">Xamarin.KotlinX.Coroutines.Flow.IStateFlow</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='NameConfig']/method[@name='getTrailingIcon' and count(parameter)=0]">Xamarin.KotlinX.Coroutines.Flow.IStateFlow</attr>
 	
-	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='AddressTextFieldController']/method[@name='getLabel' and count(parameter)=0]">Xamarin.KotlinX.Coroutines.Flow.IFlow</attr>
-	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='SimpleTextFieldController']/method[@name='getLabel' and count(parameter)=0]">Xamarin.KotlinX.Coroutines.Flow.IFlow</attr>
-	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='SimpleTextFieldController']/method[@name='getPlaceHolder' and count(parameter)=0]">Xamarin.KotlinX.Coroutines.Flow.IFlow</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='AddressTextFieldController']/method[@name='getLabel' and count(parameter)=0]">Xamarin.KotlinX.Coroutines.Flow.IStateFlow</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='SimpleTextFieldController']/method[@name='getLabel' and count(parameter)=0]">Xamarin.KotlinX.Coroutines.Flow.IStateFlow</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='SimpleTextFieldController']/method[@name='getPlaceHolder' and count(parameter)=0]">Xamarin.KotlinX.Coroutines.Flow.IStateFlow</attr>
 
 	<add-node path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='RowElement']">
 		<method abstract="false" deprecated="not deprecated" final="false" name="sectionFieldErrorController" native="false" return="Com.Stripe.Android.Uicore.Elements.ISectionFieldErrorController" static="false" synchronized="false" visibility="public">

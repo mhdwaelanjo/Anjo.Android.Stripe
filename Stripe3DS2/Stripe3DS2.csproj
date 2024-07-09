@@ -7,10 +7,10 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.Stripe.3DSecue</PackageId>
-		<PackageVersion>6.1.8</PackageVersion>
-		<AssemblyVersion>6.1.8</AssemblyVersion>
-		<FileVersion>6.1.8</FileVersion>
-		<Version>6.1.8</Version>
+		<PackageVersion>6.1.8.1</PackageVersion>
+		<AssemblyVersion>6.1.8.1</AssemblyVersion>
+		<FileVersion>6.1.8.1</FileVersion>
+		<Version>6.1.8.1</Version>
 		<Title>Anjo Android Stripe 3DS2 SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
