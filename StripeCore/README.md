@@ -4,7 +4,7 @@
 Stripe Core Android SDK for .NET for Android (formerly Xamarin.Android) Binding Library - Wael Anjo
 ---------------------------------
 
-[![NuGet](https://buildstats.info/nuget/Anjo.Android.Stripe.Core)](https://www.nuget.org/packages/Anjo.Android.Stripe.Core)
+[![NuGet](https://img.shields.io/nuget/v/Anjo.Android.Stripe.Core)](https://www.nuget.org/packages/Anjo.Android.Stripe.Core) [![License](https://img.shields.io/github/license/mhdwaelanjo/Anjo.Android.Stripe)](https://github.com/mhdwaelanjo/Anjo.Android.Stripe/blob/master/LICENSE)
 
 Welcome to the Stripe Payments developer documentation. You will find help about Stripe Payments products and APIs that will help you start using our products quickly.
 Full documentation : 

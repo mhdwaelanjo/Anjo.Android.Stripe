@@ -17,7 +17,15 @@
 	<attr name="return" path="/api/package[@name='com.stripe.android.link.ui.wallet']/class[@name='WalletViewModel_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.link.account']/class[@name='LinkStore_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.link']/class[@name='RealLinkConfigurationCoordinator_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
- 
+	<attr name="return" path="/api/package[@name='com.stripe.android.link.injection']/class[@name='NativeLinkModule_Companion_ProvideProductUsageTokensFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.link.injection']/class[@name='NativeLinkModule_Companion_ProvideLocaleFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.link.injection']/class[@name='NativeLinkModule_Companion_ProvidesEnableLoggingFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.link.injection']/class[@name='NativeLinkModule_Companion_IoContextFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.link.injection']/class[@name='NativeLinkModule_Companion_ProvideAnalyticsRequestFactoryFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.link.injection']/class[@name='NativeLinkModule_Companion_ProvideConsumersApiServiceFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.link.injection']/class[@name='NativeLinkModule_Companion_ProvideDurationProviderFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.link.injection']/class[@name='NativeLinkModule_Companion_ProvideLoggerFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+
 	<attr name="return" path="/api/package[@name='com.stripe.android.link']/class[@name='LinkActivityResult.Canceled.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.link']/class[@name='LinkActivityResult.Canceled.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
 
@@ -50,6 +58,9 @@
  
 	<attr name="return" path="/api/package[@name='com.stripe.android.link']/class[@name='LinkConfiguration.CustomerInfo.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.link']/class[@name='LinkConfiguration.CustomerInfo.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+ 
+	<attr name="return" path="/api/package[@name='com.stripe.android.link']/class[@name='LinkConfiguration.CardBrandChoice.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.link']/class[@name='LinkConfiguration.CardBrandChoice.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
  
 	<attr name="return" path="/api/package[@name='com.stripe.android.link']/class[@name='LinkActivityContract']/method[@name='parseResult' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='android.content.Intent']]">Java.Lang.Object</attr>
 

@@ -95,6 +95,12 @@
 	<attr name="return" path="/api/package[@name='com.stripe.android.customersheet']/class[@name='CustomerSheet.Configuration.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.customersheet']/class[@name='CustomerSheet.Configuration.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
   
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentelement']/class[@name='EmbeddedPaymentElement.Configuration.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentelement']/class[@name='EmbeddedPaymentElement.Configuration.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.CardBrandAcceptance.BrandCategory.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.CardBrandAcceptance.BrandCategory.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
 	<!--<attr name="return" path="">Java.Lang.Object</attr>
 	<attr name="return" path="">Java.Lang.Object[]</attr>
   
@@ -218,6 +224,18 @@
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentSheetCommonModule_Companion_ProvideCvcRecollectionLauncherFactoryFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentSheetCommonModule_Companion_ProvideAnalyticsRequestFactoryFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.customersheet.injection']/class[@name='StripeCustomerAdapterModule_Companion_ProvideAnalyticsRequestFactoryFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.customersheet.injection']/class[@name='CustomerSheetDataCommonModule_Companion_ProvideStripeAccountIdFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.customersheet.injection']/class[@name='CustomerSheetDataCommonModule_Companion_ProvidesProductUsageFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.customersheet.injection']/class[@name='CustomerSheetDataCommonModule_Companion_ProvidesEnableLoggingFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.customersheet.injection']/class[@name='CustomerSheetViewModelModule_Companion_ProvidesBacsMandateConfirmationLauncherFactoryFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.customersheet.injection']/class[@name='CustomerSheetDataCommonModule_Companion_ProvidePublishableKeyFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.customersheet.data.injection']/class[@name='CustomerSessionDataSourceModule_Companion_ProvidePrefsRepositoryFactoryFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.flowcontroller']/class[@name='FlowControllerModule_ProvidesAppContextFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentSheetCommonModule_Companion_ProvideCVCRecollectionHandlerFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.customersheet.injection']/class[@name='CustomerSheetDataCommonModule_Companion_ProvideTimeProviderFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.customersheet.injection']/class[@name='CustomerSheetDataCommonModule_Companion_ProvideAnalyticsRequestFactoryFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.customersheet.injection']/class[@name='CustomerSheetDataCommonModule_Companion_ProvidePaymentConfigurationFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+
 
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheetContract']/method[@name='parseResult' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='android.content.Intent']]">Java.Lang.Object</attr>
 
@@ -241,7 +259,13 @@
 	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentSheetCommonModule_Companion_ProvideBacsMandateConfirmationLauncherFactoryFactory']" />
 	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentSheetCommonModule_Companion_ProvidesEditPaymentMethodViewInteractorFactoryFactory']" />
 	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentSheetCommonModule_Companion_ProvideCvcRecollectionLauncherFactoryFactory']/method[@name='provideCvcRecollectionLauncherFactory' and count(parameter)=0]" />
+	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentSheetViewModelModule_ProvidesIntentConfirmationHandlerFactoryFactory']" />
+	<remove-node path="/api/package[@name='com.stripe.android.customersheet.injection']/class[@name='CustomerSheetViewModelModule_Companion_ProvidesIntentConfirmationHandlerFactoryFactory']" />
+	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentSheetCommonModule_Companion_ProvidesCvcRecollectionInteractorFactoryFactory']" />
 
+	<remove-node path="/api/package[@name='com.stripe.android.customersheet.injection']/class[@name='CustomerSheetViewModelModule_Companion_ProvidesBacsMandateConfirmationLauncherFactoryFactory']/method[@name='providesBacsMandateConfirmationLauncherFactory' and count(parameter)=0]" />
+	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentSheetCommonModule_Companion_ProvideCVCRecollectionHandlerFactory']/method[@name='provideCVCRecollectionHandler' and count(parameter)=0]"/>
+ 
 	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.repositories']/class[@name='StripeIntentRepository_Api_Factory']" />
 	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.flowcontroller']/class[@name='FlowControllerModule_ProvideEventReporterModeFactory']" />
 	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.repositories']/class[@name='ElementsSessionRepository_Api_Factory']" />

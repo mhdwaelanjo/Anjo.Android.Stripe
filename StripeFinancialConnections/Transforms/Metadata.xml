@@ -139,6 +139,30 @@
 	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections.launcher']/class[@name='FinancialConnectionsSheetInstantDebitsResult.Failed.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections.launcher']/class[@name='FinancialConnectionsSheetInstantDebitsResult.Failed.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
 
+	<attr name="return" path="/api/package[@name='com.stripe.android.core.strings.transformations']/class[@name='Replace.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.core.strings.transformations']/class[@name='Replace.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections']/class[@name='FinancialConnectionsSheet.ElementsSessionContext.BillingDetails.Address.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections']/class[@name='FinancialConnectionsSheet.ElementsSessionContext.BillingDetails.Address.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections']/class[@name='FinancialConnectionsSheet.ElementsSessionContext.BillingDetails.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections']/class[@name='FinancialConnectionsSheet.ElementsSessionContext.BillingDetails.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections']/class[@name='FinancialConnectionsSheet.ElementsSessionContext.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections']/class[@name='FinancialConnectionsSheet.ElementsSessionContext.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections']/class[@name='FinancialConnectionsSheet.ElementsSessionContext.InitializationMode.PaymentIntent.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections']/class[@name='FinancialConnectionsSheet.ElementsSessionContext.InitializationMode.PaymentIntent.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections']/class[@name='FinancialConnectionsSheet.ElementsSessionContext.InitializationMode.DeferredIntent.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections']/class[@name='FinancialConnectionsSheet.ElementsSessionContext.InitializationMode.DeferredIntent.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections']/class[@name='FinancialConnectionsSheet.ElementsSessionContext.InitializationMode.SetupIntent.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections']/class[@name='FinancialConnectionsSheet.ElementsSessionContext.InitializationMode.SetupIntent.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections']/class[@name='FinancialConnectionsSheet.ElementsSessionContext.PrefillDetails.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections']/class[@name='FinancialConnectionsSheet.ElementsSessionContext.PrefillDetails.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
 	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetNativeModule_ProvidesImageLoaderFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetNativeModule_ProvidesImageLoaderFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.financialconnections.di']/class[@name='FinancialConnectionsSheetSharedModule_ProvideStripeNetworkClientFactory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>

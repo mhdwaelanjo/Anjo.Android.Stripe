@@ -7,10 +7,10 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.Stripe.3DSecue</PackageId>
-		<PackageVersion>6.1.8.2</PackageVersion>
-		<AssemblyVersion>6.1.8.2</AssemblyVersion>
-		<FileVersion>6.1.8.2</FileVersion>
-		<Version>6.1.8.2</Version>
+		<PackageVersion>6.1.8.3</PackageVersion>
+		<AssemblyVersion>6.1.8.3</AssemblyVersion>
+		<FileVersion>6.1.8.3</FileVersion>
+		<Version>6.1.8.3</Version>
 		<Title>Anjo Android Stripe 3DS2 SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
@@ -29,7 +29,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-		<None Remove="Jars\stripe-3ds2-android-6.1.8.aar" />
+	  <None Remove="Jars\stripe-3ds2-android-6.1.8.aar" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">

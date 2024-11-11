@@ -36,7 +36,7 @@
 	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='AdministrativeAreaElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IInputController</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='PhoneNumberElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IInputController</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='CountryElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IInputController</attr>
-	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='SameAsShippingElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IInputController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='SameAsShippingElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IController</attr>
 
 	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='EmailConfig']/method[@name='getTrailingIcon' and count(parameter)=0]">Xamarin.KotlinX.Coroutines.Flow.IStateFlow</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='PostalCodeConfig']/method[@name='getLoading' and count(parameter)=0]">Xamarin.KotlinX.Coroutines.Flow.IStateFlow</attr>

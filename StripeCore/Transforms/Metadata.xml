@@ -42,6 +42,12 @@
 	<attr name="return" path="/api/package[@name='com.stripe.android.core.model']/class[@name='Country.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.core.model']/class[@name='Country.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
 
+	<attr name="return" path="/api/package[@name='com.stripe.android.core.frauddetection']/class[@name='FraudDetectionData.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.core.frauddetection']/class[@name='FraudDetectionData.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.core.strings.transformations']/class[@name='Replace.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.core.strings.transformations']/class[@name='Replace.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
 	<attr name="visibility" path="/api/package[@name='com.stripe.android.core.networking']/interface[@name='StripeConnection']/method[@name='getResponse' and count(parameter)=0]">public</attr>
 
 	<!--<add-node path="/api/package[@name='com.stripe.android.core.networking']/class[@name='ConnectionFactory.Default']">

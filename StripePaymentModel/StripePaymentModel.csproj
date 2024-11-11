@@ -7,17 +7,17 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.Stripe.PaymentModel</PackageId>
-		<PackageVersion>20.48.0</PackageVersion>
-		<AssemblyVersion>20.48.0</AssemblyVersion>
-		<FileVersion>20.48.0</FileVersion>
-		<Version>20.48.0</Version>
+		<PackageVersion>21.0.0</PackageVersion>
+		<AssemblyVersion>21.0.0</AssemblyVersion>
+		<FileVersion>21.0.0</FileVersion>
+		<Version>21.0.0</Version>
 		<Title>Anjo Android Stripe PaymentModel SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
 		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.Stripe</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Stripe PaymentModel SDK</Description>
-		<PackageReleaseNotes>Stripe.PaymentModel SDK v20.48.0</PackageReleaseNotes>
+		<PackageReleaseNotes>Stripe.PaymentModel SDK v21.0.0</PackageReleaseNotes>
 		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
 		<PackageTags>Xamarin.Android, MonoDroid, Stripe, credit cards, Payment Gateway, money</PackageTags>
 		<Summary>With Stripe Payments, collect payments, make payouts, manage international payments and more.</Summary>
@@ -29,7 +29,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-		<None Remove="Jars\payments-model-20.48.0.aar" />
+	  <None Remove="Jars\payments-model-21.0.0.aar" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">
