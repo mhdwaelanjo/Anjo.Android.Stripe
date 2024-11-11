@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="org.jetbrains.kotlin.kotlin-parcelize-runtime">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.nuget/packages/xamarin.android.jetbrains.kotlin_parcelize_runtime/1.5.20.1/jar/org.jetbrains.kotlin.kotlin-parcelize-runtime.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

@@ -19,6 +19,7 @@
 	<attr name="return" path="/api/package[@name='com.stripe.android.core.networking']/class[@name='DefaultAnalyticsRequestV2Executor_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.core.networking']/class[@name='RealAnalyticsRequestV2Storage_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.core.utils']/class[@name='RealIsWorkManagerAvailable_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.core.utils']/class[@name='RealUserFacingLogger_Factory']/method[@name='get' and count(parameter)=0]">Java.Lang.Object</attr>
 
 	<attr name="return" path="/api/package[@name='com.stripe.android.core']/class[@name='AppInfo.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.core']/class[@name='AppInfo.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>

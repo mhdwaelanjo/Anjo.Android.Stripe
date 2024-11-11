@@ -1,23 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFrameworks>net8.0-android;net7.0-android;</TargetFrameworks>
+		<TargetFramework>net8.0-android</TargetFramework>
 		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.Stripe</PackageId>
-		<PackageVersion>20.45.0</PackageVersion>
-		<AssemblyVersion>20.45.0</AssemblyVersion>
-		<FileVersion>20.45.0</FileVersion>
-		<Version>20.45.0</Version>
+		<PackageVersion>20.48.0</PackageVersion>
+		<AssemblyVersion>20.48.0</AssemblyVersion>
+		<FileVersion>20.48.0</FileVersion>
+		<Version>20.48.0</Version>
 		<Title>Anjo Android Stripe SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
 		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.Stripe</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Stripe SDK</Description>
-		<PackageReleaseNotes>Stripe SDK v20.45.0</PackageReleaseNotes>
+		<PackageReleaseNotes>Stripe SDK v20.48.0</PackageReleaseNotes>
 		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
 		<PackageTags>Xamarin.Android, MonoDroid, Stripe, credit cards, Payment Gateway, money</PackageTags>
 		<Summary>With Stripe Payments, collect payments, make payouts, manage international payments and more.</Summary>
@@ -29,7 +29,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Remove="Jars\stripe-android-20.45.0.aar" />
+		<None Remove="Jars\stripe-android-20.48.0.aar" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">
@@ -46,7 +46,11 @@
 		</None>
 	</ItemGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\StripePaymentCore\StripePaymentCore.csproj" />
-		<ProjectReference Include="..\StripePaymentSheet\StripePaymentSheet.csproj" />
+		<PackageReference Include="Xamarin.Kotlin.StdLib" Version="2.0.0" />
+		<PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="2.0.0" />
 	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\StripePaymentCore\StripePaymentCore.csproj" />
+	  <ProjectReference Include="..\StripePaymentSheet\StripePaymentSheet.csproj" />
+	</ItemGroup> 
 </Project>

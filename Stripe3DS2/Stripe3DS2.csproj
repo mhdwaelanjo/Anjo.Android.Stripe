@@ -1,16 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFrameworks>net8.0-android;net7.0-android;</TargetFrameworks>
+		<TargetFramework>net8.0-android</TargetFramework>
 		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.Stripe.3DSecue</PackageId>
-		<PackageVersion>6.1.8.1</PackageVersion>
-		<AssemblyVersion>6.1.8.1</AssemblyVersion>
-		<FileVersion>6.1.8.1</FileVersion>
-		<Version>6.1.8.1</Version>
+		<PackageVersion>6.1.8.2</PackageVersion>
+		<AssemblyVersion>6.1.8.2</AssemblyVersion>
+		<FileVersion>6.1.8.2</FileVersion>
+		<Version>6.1.8.2</Version>
 		<Title>Anjo Android Stripe 3DS2 SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
@@ -29,7 +29,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Remove="Jars\stripe-3ds2-android-6.1.8.aar" />
+		<None Remove="Jars\stripe-3ds2-android-6.1.8.aar" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">
@@ -40,21 +40,29 @@
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
 		</None>
-		<None Include="..\README.md">
+		<None Include="README.md">
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
 		</None>
 	</ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="Xamarin.Android.JetBrains.Kotlin_Parcelize_Runtime" Version="1.5.20.1" />
-		<PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.6.1.5" />
-		<PackageReference Include="Xamarin.AndroidX.Core" Version="1.12.0.2" />
-		<PackageReference Include="Xamarin.AndroidX.DataBinding.ViewBinding" Version="8.1.2.1" />
-		<PackageReference Include="Xamarin.AndroidX.Fragment" Version="1.6.2" />
-		<PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData" Version="2.6.2.2" />
-		<PackageReference Include="Xamarin.Google.Android.Material" Version="1.10.0.1" />
-		<PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="1.9.20" />
-		<PackageReference Include="Xamarin.KotlinX.Coroutines.Core" Version="1.7.3.2" />
-		<PackageReference Include="Xamarin.KotlinX.Coroutines.Android" Version="1.7.3.2" />
+		<PackageReference Include="Xamarin.AndroidX.Activity" Version="1.9.0.3" />
+		<PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.7.0" />
+		<PackageReference Include="Xamarin.AndroidX.Browser" Version="1.8.0.3" />
+		<PackageReference Include="Xamarin.AndroidX.Core" Version="1.13.1.2" />
+		<PackageReference Include="Xamarin.AndroidX.DataBinding.ViewBinding" Version="8.5.0" />
+		<PackageReference Include="Xamarin.AndroidX.Fragment" Version="1.8.1" />
+		<PackageReference Include="Xamarin.AndroidX.Fragment.Ktx" Version="1.8.1" />
+		<PackageReference Include="Xamarin.AndroidX.Lifecycle.Common" Version="2.8.3" />
+		<PackageReference Include="Xamarin.AndroidX.Lifecycle.Common.Jvm" Version="2.8.3" />
+		<PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData" Version="2.8.3" />
+		<PackageReference Include="Xamarin.AndroidX.Lifecycle.Runtime" Version="2.8.3" />
+		<PackageReference Include="Xamarin.AndroidX.Lifecycle.Runtime.Ktx" Version="2.8.3" />
+		<PackageReference Include="Xamarin.Google.Android.Material" Version="1.11.0" />
+		<PackageReference Include="Xamarin.Kotlin.StdLib" Version="2.0.0" />
+		<PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="2.0.0" />
+		<PackageReference Include="Xamarin.KotlinX.Coroutines.Android" Version="1.8.1" />
+		<PackageReference Include="Xamarin.KotlinX.Coroutines.Core" Version="1.8.1" />
 	</ItemGroup>
 </Project>

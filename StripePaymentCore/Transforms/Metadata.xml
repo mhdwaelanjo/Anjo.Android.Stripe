@@ -679,21 +679,21 @@
 	<attr name="return" path="/api/package[@name='com.stripe.android.payments.bankaccount.navigation']/class[@name='CollectBankAccountForInstantDebitsResult.Failed.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.payments.bankaccount.navigation']/class[@name='CollectBankAccountForInstantDebitsResult.Failed.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
       
-	<!--<attr name="return" path="">Java.Lang.Object</attr>
-	<attr name="return" path="">Java.Lang.Object[]</attr>
-      
-	<attr name="return" path="">Java.Lang.Object</attr>
-	<attr name="return" path="">Java.Lang.Object[]</attr>
-      
-	<attr name="return" path="">Java.Lang.Object</attr>
-	<attr name="return" path="">Java.Lang.Object[]</attr>
-      
-	<attr name="return" path="">Java.Lang.Object</attr>
-	<attr name="return" path="">Java.Lang.Object[]</attr>
-      
-	<attr name="return" path="">Java.Lang.Object</attr>
-	<attr name="return" path="">Java.Lang.Object[]</attr>-->
-      
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='ElementsSession.Customer.Components.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='ElementsSession.Customer.Components.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+       
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='ElementsSession.Customer.Components.CustomerSheet.Enabled.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='ElementsSession.Customer.Components.CustomerSheet.Enabled.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+       
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='ElementsSession.Customer.Components.PaymentSheet.Disabled.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='ElementsSession.Customer.Components.PaymentSheet.Disabled.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+       
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='ElementsSession.Customer.Components.PaymentSheet.Enabled.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='ElementsSession.Customer.Components.PaymentSheet.Enabled.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+       
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='ElementsSession.Customer.Components.CustomerSheet.Disabled.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='ElementsSession.Customer.Components.CustomerSheet.Disabled.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+       
 	<!--<attr name="return" path="/api/package[@name='com.stripe.android.payments.bankaccount.navigation']/class[@name='CollectBankAccountResponseInternal.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.payments.bankaccount.navigation']/class[@name='CollectBankAccountResponseInternal.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
  
