@@ -101,6 +101,18 @@
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.CardBrandAcceptance.BrandCategory.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.CardBrandAcceptance.BrandCategory.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
   
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.Appearance.Embedded.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.Appearance.Embedded.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.Appearance.Embedded.RowStyle.FlatWithCheckmark.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.Appearance.Embedded.RowStyle.FlatWithCheckmark.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.Appearance.Embedded.RowStyle.FlatWithRadio.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.Appearance.Embedded.RowStyle.FlatWithRadio.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.Appearance.Embedded.RowStyle.FloatingButton.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheet.Appearance.Embedded.RowStyle.FloatingButton.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+  
 	<!--<attr name="return" path="">Java.Lang.Object</attr>
 	<attr name="return" path="">Java.Lang.Object[]</attr>
   
@@ -274,6 +286,9 @@
 	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='FragmentAchBinding']" />
 	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.databinding']/class[@name='ActivityPaymentSheetBinding']" />
 	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.paymentdatacollection.ach.di']/class[@name='USBankAccountFormViewModelModule_ProvidePaymentConfigurationFactory']" />
+	
+	<remove-node path="/api/package[@name='com.stripe.android.paymentelement.embedded.form']/class[@name='FormActivity_MembersInjector']" />
+	<remove-node path="/api/package[@name='com.stripe.android.paymentelement.embedded.manage']/class[@name='ManageActivity_MembersInjector']" />
 
 	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheetContract']/method[@name='createIntent' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='com.stripe.android.paymentsheet.PaymentSheetContract.Args']]" />
 	<add-node path="/api/package[@name='com.stripe.android.paymentsheet']/class[@name='PaymentSheetContract']">

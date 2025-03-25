@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFramework>net8.0-android</TargetFramework>
 		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
@@ -6,18 +6,18 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 	<PropertyGroup>
-		<PackageId>Anjo.Android.Stripe.Hcaptcha</PackageId>
+		<PackageId>Anjo.Android.Stripe.Attestation</PackageId>
 		<PackageVersion>21.6.0</PackageVersion>
 		<AssemblyVersion>21.6.0</AssemblyVersion>
 		<FileVersion>21.6.0</FileVersion>
 		<Version>21.6.0</Version>
-		<Title>Anjo Android Stripe Hcaptcha SDK</Title>
+		<Title>Anjo Android Stripe Attestation SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
 		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.Stripe</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Stripe Hcaptcha SDK</Description>
-		<PackageReleaseNotes>Stripe.Hcaptcha SDK v21.6.0</PackageReleaseNotes>
+		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Stripe Attestation SDK</Description>
+		<PackageReleaseNotes>Stripe.Attestation SDK v21.6.0</PackageReleaseNotes>
 		<Copyright>Copyright (c) 2025 Wael Anjo</Copyright>
 		<PackageTags>Xamarin.Android, MonoDroid, Stripe, credit cards, Payment Gateway, money</PackageTags>
 		<Summary>With Stripe Payments, collect payments, make payouts, manage international payments and more.</Summary>
@@ -29,7 +29,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Remove="Jars\hcaptcha-21.6.0.aar" />
+		<None Remove="Jars\attestation-21.6.0.aar" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">
@@ -45,24 +45,10 @@
 			<PackagePath>\</PackagePath>
 		</None>
 	</ItemGroup>
-	<ItemGroup>
-		<PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.7.0.5" />
-		<PackageReference Include="Xamarin.AndroidX.Core" Version="1.15.0.2" />
-		<PackageReference Include="Xamarin.AndroidX.Lifecycle.Common" Version="2.8.7.2" />
-		<PackageReference Include="Xamarin.AndroidX.Lifecycle.Common.Jvm" Version="2.8.7.2" />
-		<PackageReference Include="Xamarin.AndroidX.Lifecycle.Extensions" Version="2.2.0.31" />
-		<PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData" Version="2.8.7.2" />
-		<PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData.Core" Version="2.8.7.2" />
-		<PackageReference Include="Xamarin.AndroidX.Lifecycle.Process" Version="2.8.7.2" />
-		<PackageReference Include="Xamarin.AndroidX.Lifecycle.Runtime" Version="2.8.7.2" />
-		<PackageReference Include="Xamarin.AndroidX.Lifecycle.Runtime.Ktx" Version="2.8.7.2" />
-		<PackageReference Include="Xamarin.AndroidX.Lifecycle.Service" Version="2.8.7.2" />
-		<PackageReference Include="Xamarin.AndroidX.Lifecycle.ViewModel" Version="2.8.7.2" />
-		<PackageReference Include="Xamarin.AndroidX.Lifecycle.ViewModel.Android" Version="2.8.7.2" />
-		<PackageReference Include="Xamarin.AndroidX.Lifecycle.ViewModel.Ktx" Version="2.8.7.2" />
-		<PackageReference Include="Xamarin.AndroidX.Lifecycle.ViewModelSavedState" Version="2.8.7.2" />
+	<ItemGroup> 
+		<PackageReference Include="Xamarin.Google.Android.Play.Integrity" Version="1.4.0.3" /> 
 		<PackageReference Include="Xamarin.Kotlin.StdLib" Version="2.0.21.2" />
 		<PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="2.0.21.2" />
-		<PackageReference Include="Xamarin.Android.JetBrains.KotlinX_Serialization_Json_Jvm" Version="1.3.1" />
-	</ItemGroup>
+		<PackageReference Include="Xamarin.KotlinX.Coroutines.Core" Version="1.9.0.2" /> 
+	</ItemGroup> 
 </Project>

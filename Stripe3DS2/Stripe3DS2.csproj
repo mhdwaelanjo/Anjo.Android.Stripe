@@ -7,18 +7,18 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.Stripe.3DSecue</PackageId>
-		<PackageVersion>6.1.8.3</PackageVersion>
-		<AssemblyVersion>6.1.8.3</AssemblyVersion>
-		<FileVersion>6.1.8.3</FileVersion>
-		<Version>6.1.8.3</Version>
+		<PackageVersion>6.2.0</PackageVersion>
+		<AssemblyVersion>6.2.0</AssemblyVersion>
+		<FileVersion>6.2.0</FileVersion>
+		<Version>6.2.0</Version>
 		<Title>Anjo Android Stripe 3DS2 SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
 		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.Stripe</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Stripe 3DS2 SDK</Description>
-		<PackageReleaseNotes>Stripe.3DS2 SDK v6.1.8</PackageReleaseNotes>
-		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
+		<PackageReleaseNotes>Stripe.3DS2 SDK v6.2.0</PackageReleaseNotes>
+		<Copyright>Copyright (c) 2025 Wael Anjo</Copyright>
 		<PackageTags>Xamarin.Android, MonoDroid, Stripe, credit cards, Payment Gateway, money</PackageTags>
 		<Summary>With Stripe Payments, collect payments, make payouts, manage international payments and more.</Summary>
 		<!-- Include symbol files (*.pdb) in the built .nupkg -->
@@ -29,7 +29,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Remove="Jars\stripe-3ds2-android-6.1.8.aar" />
+	  <None Remove="Jars\stripe-3ds2-android-6.2.0.aar" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">
@@ -47,22 +47,22 @@
 	</ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="Xamarin.Android.JetBrains.Kotlin_Parcelize_Runtime" Version="1.5.20.1" />
-		<PackageReference Include="Xamarin.AndroidX.Activity" Version="1.9.0.3" />
-		<PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.7.0" />
-		<PackageReference Include="Xamarin.AndroidX.Browser" Version="1.8.0.3" />
-		<PackageReference Include="Xamarin.AndroidX.Core" Version="1.13.1.2" />
-		<PackageReference Include="Xamarin.AndroidX.DataBinding.ViewBinding" Version="8.5.0" />
-		<PackageReference Include="Xamarin.AndroidX.Fragment" Version="1.8.1" />
-		<PackageReference Include="Xamarin.AndroidX.Fragment.Ktx" Version="1.8.1" />
-		<PackageReference Include="Xamarin.AndroidX.Lifecycle.Common" Version="2.8.3" />
-		<PackageReference Include="Xamarin.AndroidX.Lifecycle.Common.Jvm" Version="2.8.3" />
-		<PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData" Version="2.8.3" />
-		<PackageReference Include="Xamarin.AndroidX.Lifecycle.Runtime" Version="2.8.3" />
-		<PackageReference Include="Xamarin.AndroidX.Lifecycle.Runtime.Ktx" Version="2.8.3" />
-		<PackageReference Include="Xamarin.Google.Android.Material" Version="1.11.0" />
-		<PackageReference Include="Xamarin.Kotlin.StdLib" Version="2.0.0" />
-		<PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="2.0.0" />
-		<PackageReference Include="Xamarin.KotlinX.Coroutines.Android" Version="1.8.1" />
-		<PackageReference Include="Xamarin.KotlinX.Coroutines.Core" Version="1.8.1" />
+		<PackageReference Include="Xamarin.AndroidX.Activity" Version="1.10.1" />
+		<PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.7.0.5" />
+		<PackageReference Include="Xamarin.AndroidX.Browser" Version="1.8.0.8" />
+		<PackageReference Include="Xamarin.AndroidX.Core" Version="1.15.0.2" />
+		<PackageReference Include="Xamarin.AndroidX.DataBinding.ViewBinding" Version="8.8.2" />
+		<PackageReference Include="Xamarin.AndroidX.Fragment" Version="1.8.6" />
+		<PackageReference Include="Xamarin.AndroidX.Fragment.Ktx" Version="1.8.6" />
+		<PackageReference Include="Xamarin.AndroidX.Lifecycle.Common" Version="2.8.7.2" />
+		<PackageReference Include="Xamarin.AndroidX.Lifecycle.Common.Jvm" Version="2.8.7.2" />
+		<PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData" Version="2.8.7.2" />
+		<PackageReference Include="Xamarin.AndroidX.Lifecycle.Runtime" Version="2.8.7.2" />
+		<PackageReference Include="Xamarin.AndroidX.Lifecycle.Runtime.Ktx" Version="2.8.7.2" />
+		<PackageReference Include="Xamarin.Google.Android.Material" Version="1.12.0.2" />
+		<PackageReference Include="Xamarin.Kotlin.StdLib" Version="2.0.21.2" />
+		<PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="2.0.21.2" />
+		<PackageReference Include="Xamarin.KotlinX.Coroutines.Android" Version="1.9.0.2" />
+		<PackageReference Include="Xamarin.KotlinX.Coroutines.Core" Version="1.9.0.2" />
 	</ItemGroup>
 </Project>

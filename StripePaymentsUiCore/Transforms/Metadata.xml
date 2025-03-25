@@ -115,26 +115,25 @@
 	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SimpleTextSpec.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
   
   
-	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='AuBecsDebitMandateTextElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IController</attr>
-	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='CardDetailsSectionElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IController</attr>
-	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='CountryElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IController</attr>
-	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='CvcElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IController</attr>
-	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='MandateTextElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IController</attr>
-	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='OTPElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IController</attr>
-	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SaveForFutureUseElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IController</attr>
-	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SectionElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IController</attr>
-	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='StaticTextElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IController</attr>
-	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='CardDetailsSectionElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IController</attr>
-	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='AuBecsDebitMandateTextElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='AuBecsDebitMandateTextElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='CardDetailsSectionElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='CountryElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='CvcElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='MandateTextElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='OTPElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SaveForFutureUseElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SectionElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='StaticTextElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SetAsDefaultPaymentMethodElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IController</attr> 
 
-	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='EmailElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IInputController</attr>
-	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='PhoneNumberElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IInputController</attr>
-	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SameAsShippingElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IInputController</attr>
-	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SimpleDropdownElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IInputController</attr>
-	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SimpleTextElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IInputController</attr>
-	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='AdministrativeAreaElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IInputController</attr>
-	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='CountryElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IInputController</attr>
-	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='CvcElement']/method[@name='getController' and count(parameter)=0]">com.stripe.android.ui.core.elements.IInputController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='EmailElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IInputController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='PhoneNumberElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IInputController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SameAsShippingElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IInputController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SimpleDropdownElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IInputController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SimpleTextElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IInputController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='AdministrativeAreaElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IInputController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='CountryElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IInputController</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='CvcElement']/method[@name='getController' and count(parameter)=0]">Com.Stripe.Android.Uicore.Elements.IInputController</attr>
 
 	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='EmailConfig']/method[@name='getTrailingIcon' and count(parameter)=0]">Xamarin.KotlinX.Coroutines.Flow.IStateFlow</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='IbanConfig']/method[@name='getTrailingIcon' and count(parameter)=0]">Xamarin.KotlinX.Coroutines.Flow.IStateFlow</attr>
@@ -160,41 +159,11 @@
 	<remove-node path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='CardNumberController']" />
 	<!--<remove-node path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='RowElement']/method[@name='sectionFieldErrorController' and count(parameter)=0]" />-->
 
-	<add-node path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='RowElement']">
+	<!--<add-node path="/api/package[@name='com.stripe.android.uicore.elements']/class[@name='RowElement']">
 		<method abstract="false" deprecated="not deprecated" final="false" name="SectionFieldErrorController" native="false" return="Com.Stripe.Android.Uicore.Elements.ISectionFieldErrorController" static="false" synchronized="false" visibility="public">
 		</method>
 	</add-node>
- 
-	<add-node path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='AuBecsDebitMandateTextElement']">
-		<method abstract="false" deprecated="not deprecated" final="false" name="getController" native="false" return="Com.Stripe.Android.Uicore.Elements.IController" static="false" synchronized="false" visibility="public">
-		</method>
-	</add-node>
- 
-	<add-node path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='CardDetailsSectionElement']">
-		<method abstract="false" deprecated="not deprecated" final="false" name="getController" native="false" return="Com.Stripe.Android.Uicore.Elements.IController" static="false" synchronized="false" visibility="public">
-		</method>
-	</add-node>
- 
-	<add-node path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='MandateTextElement']">
-		<method abstract="false" deprecated="not deprecated" final="false" name="getController" native="false" return="Com.Stripe.Android.Uicore.Elements.IController" static="false" synchronized="false" visibility="public">
-		</method>
-	</add-node>
- 
-	<add-node path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SaveForFutureUseElement']">
-		<method abstract="false" deprecated="not deprecated" final="false" name="getController" native="false" return="Com.Stripe.Android.Uicore.Elements.IController" static="false" synchronized="false" visibility="public">
-		</method>
-	</add-node>
- 
-	<add-node path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SectionElement']">
-		<method abstract="false" deprecated="not deprecated" final="false" name="getController" native="false" return="Com.Stripe.Android.Uicore.Elements.IController" static="false" synchronized="false" visibility="public">
-		</method>
-	</add-node>
- 
-	<add-node path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='StaticTextElement']">
-		<method abstract="false" deprecated="not deprecated" final="false" name="getController" native="false" return="Com.Stripe.Android.Uicore.Elements.IController" static="false" synchronized="false" visibility="public">
-		</method>
-	</add-node>
- 
+   
 	<add-node path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='CvcElement']">
 		<method abstract="false" deprecated="not deprecated" final="false" name="getController" native="false" return="Com.Stripe.Android.Uicore.Elements.IInputController" static="false" synchronized="false" visibility="public">
 		</method>
@@ -208,7 +177,7 @@
 	<add-node path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='SimpleDropdownElement']">
 		<method abstract="false" deprecated="not deprecated" final="false" name="getController" native="false" return="Com.Stripe.Android.Uicore.Elements.IInputController" static="false" synchronized="false" visibility="public">
 		</method>
-	</add-node>
+	</add-node>-->
  
 	<remove-node path="/api/package[@name='com.stripe.android.ui.core.databinding']/class[@name='ActivityCardScanBinding']" /> 
 	<remove-node path="/api/package[@name='com.stripe.android.ui.core.elements']/class[@name='CvcConfig']/method[@name='determineState' and count(parameter)=3 and parameter[1][@type='com.stripe.android.model.CardBrand'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='int']]" /> 

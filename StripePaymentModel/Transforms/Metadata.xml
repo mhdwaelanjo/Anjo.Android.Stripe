@@ -82,6 +82,27 @@
 	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='SharePaymentDetails.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='SharePaymentDetails.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
 
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='ConsumerPaymentDetailsUpdateParams.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='ConsumerPaymentDetailsUpdateParams.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='IncentiveEligibilitySession.DeferredIntent.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='IncentiveEligibilitySession.DeferredIntent.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='IncentiveEligibilitySession.PaymentIntent.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='IncentiveEligibilitySession.PaymentIntent.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='IncentiveEligibilitySession.SetupIntent.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='IncentiveEligibilitySession.SetupIntent.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='LinkConsumerIncentive.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='LinkConsumerIncentive.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='LinkConsumerIncentive.IncentiveParams.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='LinkConsumerIncentive.IncentiveParams.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='UpdateAvailableIncentives.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.model']/class[@name='UpdateAvailableIncentives.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
+ 
 	<!--<attr name="return" path="">Java.Lang.Object</attr>
 	<attr name="return" path="">Java.Lang.Object[]</attr>-->
 
@@ -93,6 +114,8 @@
 	<attr name="return" path="/api/package[@name='com.stripe.android.model.parsers']/class[@name='ConsumerSessionLookupJsonParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='org.json.JSONObject']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.model.parsers']/class[@name='ConsumerSessionSignupJsonParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='org.json.JSONObject']]">Java.Lang.Object</attr>
 	<attr name="return" path="/api/package[@name='com.stripe.android.model.parsers']/class[@name='ConsumerPaymentDetailsJsonParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='org.json.JSONObject']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.model.parsers']/class[@name='LinkConsumerIncentiveJsonParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='org.json.JSONObject']]">Java.Lang.Object</attr>
+	<attr name="return" path="/api/package[@name='com.stripe.android.model.parsers']/class[@name='UpdateAvailableIncentivesJsonParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='org.json.JSONObject']]">Java.Lang.Object</attr>
 
 	<remove-node path="/api/package[@name='com.stripe.android.customersheet.injection']/class[@name='CustomerSheetViewModelModule_Companion_ProvidesIntentConfirmationHandlerFactoryFactory']"/>
 	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentSheetCommonModule_Companion_ProvidesCvcRecollectionInteractorFactoryFactory']"/>
