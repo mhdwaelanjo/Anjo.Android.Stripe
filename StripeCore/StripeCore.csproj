@@ -7,10 +7,10 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.Stripe.Core</PackageId>
-		<PackageVersion>21.6.0</PackageVersion>
-		<AssemblyVersion>21.6.0</AssemblyVersion>
-		<FileVersion>21.6.0</FileVersion>
-		<Version>21.6.0</Version>
+		<PackageVersion>21.6.0.1</PackageVersion>
+		<AssemblyVersion>21.6.0.1</AssemblyVersion>
+		<FileVersion>21.6.0.1</FileVersion>
+		<Version>21.6.0.1</Version>
 		<Title>Anjo Android Stripe Core SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
