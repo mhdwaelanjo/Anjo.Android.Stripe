@@ -9,8 +9,10 @@
  
   <attr name="return" path="/api/package[@name='com.stripe.hcaptcha']/class[@name='HCaptchaStateListener.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]">Java.Lang.Object</attr>
   <attr name="return" path="/api/package[@name='com.stripe.hcaptcha']/class[@name='HCaptchaStateListener.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]">Java.Lang.Object[]</attr>
- 
-   <!--<attr name="return" path="">Java.Lang.Object</attr>
+
+  <remove-node path="/api/package[@name='com.stripe.hcaptcha.encode']/class[@name='DurationSerializer']" />
+
+	<!--<attr name="return" path="">Java.Lang.Object</attr>
   <attr name="return" path="">Java.Lang.Object[]</attr>
  
   <attr name="return" path="">Java.Lang.Object</attr>

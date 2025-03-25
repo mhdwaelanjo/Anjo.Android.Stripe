@@ -50,6 +50,9 @@
 
 	<attr name="visibility" path="/api/package[@name='com.stripe.android.core.networking']/interface[@name='StripeConnection']/method[@name='getResponse' and count(parameter)=0]">public</attr>
 
+	<remove-node path="/api/package[@name='com.stripe.android.core.model.serializers']/class[@name='CountryListSerializer']" />
+	<remove-node path="/api/package[@name='com.stripe.android.core.model.serializers']/class[@name='StripeErrorSerializer']" />
+	
 	<!--<add-node path="/api/package[@name='com.stripe.android.core.networking']/class[@name='ConnectionFactory.Default']">
 	  <method abstract="false" deprecated="not deprecated" final="false" name="create" native="false" return="com.stripe.android.core.networking.IStripeConnection" static="false" synchronized="false" visibility="public">
 		  <parameter name="request" type="com.stripe.android.core.networking.StripeRequest" />

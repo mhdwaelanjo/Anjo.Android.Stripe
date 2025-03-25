@@ -1,16 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>net8.0-android</TargetFramework>
+		<TargetFrameworks>net9.0-android;net8.0-android</TargetFrameworks>
 		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.Stripe</PackageId>
-		<PackageVersion>21.6.0.1</PackageVersion>
-		<AssemblyVersion>21.6.0.1</AssemblyVersion>
-		<FileVersion>21.6.0.1</FileVersion>
-		<Version>21.6.0.1</Version>
+		<PackageVersion>21.6.0.2</PackageVersion>
+		<AssemblyVersion>21.6.0.2</AssemblyVersion>
+		<FileVersion>21.6.0.2</FileVersion>
+		<Version>21.6.0.2</Version>
 		<Title>Anjo Android Stripe SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>

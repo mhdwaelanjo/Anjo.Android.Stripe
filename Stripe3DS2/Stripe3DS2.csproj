@@ -1,16 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>net8.0-android</TargetFramework>
+		<TargetFrameworks>net9.0-android;net8.0-android</TargetFrameworks>
 		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.Stripe.3DSecue</PackageId>
-		<PackageVersion>6.2.0</PackageVersion>
-		<AssemblyVersion>6.2.0</AssemblyVersion>
-		<FileVersion>6.2.0</FileVersion>
-		<Version>6.2.0</Version>
+		<PackageVersion>6.2.0.2</PackageVersion>
+		<AssemblyVersion>6.2.0.2</AssemblyVersion>
+		<FileVersion>6.2.0.2</FileVersion>
+		<Version>6.2.0.2</Version>
 		<Title>Anjo Android Stripe 3DS2 SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>

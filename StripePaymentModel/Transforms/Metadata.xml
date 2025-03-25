@@ -120,4 +120,7 @@
 	<remove-node path="/api/package[@name='com.stripe.android.customersheet.injection']/class[@name='CustomerSheetViewModelModule_Companion_ProvidesIntentConfirmationHandlerFactoryFactory']"/>
 	<remove-node path="/api/package[@name='com.stripe.android.paymentsheet.injection']/class[@name='PaymentSheetCommonModule_Companion_ProvidesCvcRecollectionInteractorFactoryFactory']"/>
 
+	<remove-node path="/api/package[@name='com.stripe.android.model.parsers']/class[@name='BankAccountSerializer']"/>
+	<remove-node path="/api/package[@name='com.stripe.android.model.parsers']/class[@name='TokenSerializer']"/>
+
 </metadata>
